@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+    font-size: large;
+    color: white;
+}
+
+header{
+    font-family: 'Courier new';
+    font-weight: 100;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+    background-color: green;
+}
+
+footer{
+    font-weight: 100;
+    text-align: center;
+    padding: 10px;
+    background-color: green;
+}
+
+main{
+    width: 600px;
+    margin: auto;
+    background-color: blue;
+}
+
+h1{
+    padding: 20px;
+    font-size: 36px;
+}
+
+#rectangle{
+    float: left;
+    width:120px;
+    height:120px;
+    border: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 16px 0 16px 0;
+    margin: 20px;
+}
+
+p{
+    font-size: 20px; 
+    margin: 20px;
+    line-height: 130%;
+}
+
+a{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px; 
+    color: red;
+}
+
+span{
+    font-size: 30px;
+    color: red;
+}
+
+h2{
+    padding-left: 20px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    word-spacing: 10px;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+#exlist1{
+    padding-left: 60px;
+}
+
+#exlist1 li:nth-child(2n){
+    color:aqua;
+    letter-spacing: 5px;
+}
+
+h3{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+#exlist2{
+    padding-left: 20px;
+    list-style: none;
+}
+
+#exlist2 :last-child{
+    margin-top: 10px;
+}
+
+table {
+    border: solid 1px;
+    border-color: white;
+    float: right;
+    padding: 1px;
+    margin-right: 20px;
+}
+
+td{
+    border: solid 1px;
+    vertical-align: bottom;
+    text-align: center;
+    padding: 12px 16px 0 16px;
+}
+
+img{
+    margin-right: 20px;
+    float: right;
+}
